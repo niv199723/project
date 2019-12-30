@@ -9,6 +9,7 @@ function dropDownValidation()
 	}
 	if(count==0)
 	{
+document.getElementById("errorDropDown").style.color="red";
 document.getElementById("errorDropDown").innerHTML="select a Qualification";
 		return false;
 	}
@@ -22,10 +23,12 @@ function perValidation()
 	var userValue=document.getElementById("per").value;
 	var perPattern="^[0-9]{2}[.]{1}[0-9]{2}[%]{1}$";
 if(userValue==null||userValue==""){
+document.getElementById("errorper").style.color="red";
 document.getElementById("errorper").innerHTML="plz enter your percentage";
 return false;
 }
 	else if(!userValue.match(perPattern)){
+		document.getElementById("errorper").style.color="red";
 		document.getElementById("errorper").innerHTML="plz enter in 00.00% format";
 return false;
 }
@@ -39,10 +42,12 @@ function intValidation()
 	var userValue=document.getElementById("int").value;
 	var perPattern="^[0-9]{2}$";
 if(userValue==null||userValue==""){
+document.getElementById("errorint").style.color="red";
 document.getElementById("errorint").innerHTML="plz enter interview score";
 return false;
 }
 	else if(!userValue.match(perPattern)){
+		document.getElementById("errorint").style.color="red";
 		document.getElementById("errorint").innerHTML="plz enter correct interview score";
 return false;
 }
@@ -56,10 +61,12 @@ function comValidation()
 	var userValue=document.getElementById("com").value;
 	var perPattern="^[0-9]{2}$";
 if(userValue==null||userValue==""){
+	document.getElementById("errorcom").style.color="red";
 document.getElementById("errorcom").innerHTML="plz enter communication skills score";
 return false;
 }
 	else if(!userValue.match(perPattern)){
+		document.getElementById("errorcom").style.color="red";
 		document.getElementById("errorcom").innerHTML="plz enter correct communicetion skills score";
 return false;
 }
@@ -73,10 +80,12 @@ function techValidation()
 	var userValue=document.getElementById("tech").value;
 	var perPattern="^[0-9]{2}$";
 if(userValue==null||userValue==""){
+	document.getElementById("errortech").style.color="red";
 document.getElementById("errortech").innerHTML="plz enter technical skills score";
 return false;
 }
 	else if(!userValue.match(perPattern)){
+		document.getElementById("errortech").style.color="red";
 		document.getElementById("errortech").innerHTML="plz enter correct technical skills score";
 return false;
 }
