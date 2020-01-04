@@ -1,0 +1,70 @@
+
+Title Of The Project:
+
+EMPLOYEE DESIGNATION
+
+
+Project Team:
+
+Team Leader: Ashish 
+Team Members: Nivedita, Injili, Sravya, Mohit
+
+
+Introduction:
+
+This project gives us Designation and training details of freshers. 
+This helps the company to make work easy of deciding Designation of fresher. 
+With help of Education details, interview score and skills, Designation of fresher will be decided and training will be allocated.
+
+
+System Requirement:
+
+Windows 8,8.1,10
+
+RAM 4GB and more
+
+Chrome,FireFox and latest version of web browser
+
+Internet Required
+
+
+
+Software Requirement:
+
+Java
+
+Notepad++
+
+Oracle
+
+Spring Tool 4
+
+
+Working:
+
+Firstly user/admin need to login or signup.
+
+If it is admin then redirected to admin menu page.
+
+Admin will choose one option bases on his requirement.
+
+Like Add another admin, Add new trainer, Add new fresher, Change details or delete fresher or display all freshers.
+
+While adding another admin ,his personal details like email id and password is needed
+
+while adding another trainer , his personal details email id ,password, contactno etc.
+
+while adding new fresher, admin will add the personal details and qualifications of fresher and will generate designation, 
+designation will be decided based upon interview score and technical skills.
+
+Once the designation is generated training will be allocated, training will be decided based upon Education details and final percentage.
+
+On basis of designation and Education details package will be decided.
+
+If Trainer logins then he will be redirected to trainee feedback page.
+
+If user logins he will redirected to his designation details page.
+
+
+
+
